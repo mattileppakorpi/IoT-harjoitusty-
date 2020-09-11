@@ -1,8 +1,8 @@
-Desipelipohjainen valvontakamera.
+# Desipelipohjainen valvontakamera.
 
 Tarpeet:
-    -Langaton mikrofoni
-    -kamera
-    -Rasberry pi
-    -Palvelin virtuaalikoneeseen
+    * Langaton mikrofoni
+    * Kamera
+    * Rasberry pi
+    * Palvelin virtuaalikoneeseen
 Siirtotie vielä kysymysmerkki?
