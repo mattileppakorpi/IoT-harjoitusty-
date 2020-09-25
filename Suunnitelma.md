@@ -3,7 +3,7 @@
 Tarkoituksena olisi luoda videovalvontajärjestelmä joka kytkeytyy päälle havaittuaan ääntä. Haluttavat desibelit ovat säädettävissä tarkoituksen mukaan.
 
 Tarpeet:
-* Langaton mikrofoni
+* Langaton mikrofoni(digitaalinen äänentasomittari)
 * Kamera
 * Rasberry pi
 * Palvelin virtuaalikoneeseen
