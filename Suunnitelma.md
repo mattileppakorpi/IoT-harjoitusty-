@@ -12,4 +12,4 @@ Siirtotie vielä kysymysmerkki?
 
 Tiiminjohtaja Matti.
 
-Yski ryhmäläisistä hakee raspin ja kytkee siihen kiinni tarvittavat komponentit. Palauttaa kouluun opettajalle joka kytkee sen labranettiin.
+Yksii ryhmäläisistä hakee raspin opettajalta ja kytkee siihen kiinni tarvittavat komponentit. Palauttaa raspin opettajalle joka kytkee sen labranettiin.
