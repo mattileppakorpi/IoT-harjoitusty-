@@ -9,3 +9,7 @@ Tarpeet:
 * Palvelin virtuaalikoneeseen
 
 Siirtotie vielä kysymysmerkki?
+
+Tiiminjohtaja Matti.
+
+Yski ryhmäläisistä hakee raspin ja kytkee siihen kiinni tarvittavat komponentit. Palauttaa kouluun opettajalle joka kytkee sen labranettiin.
