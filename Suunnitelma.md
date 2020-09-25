@@ -8,7 +8,7 @@ Tarpeet:
 * Rasberry pi
 * Palvelin virtuaalikoneeseen
 
-Siirtotie vielä kysymysmerkki?
+Raspi kytketty labranettiin. Otetut kuvat lähetetään palvelimelle.
 
 Tiiminjohtaja Matti.
 
