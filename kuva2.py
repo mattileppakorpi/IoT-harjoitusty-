@@ -1,7 +1,7 @@
 from picamera import PiCamera
 from time import sleep
 
-import RPi.GPIO as GPIO
+#import RPi.GPIO as GPIO
 import time
 import base64
 import paho.mqtt.client as mqtt
@@ -9,8 +9,8 @@ import paho.mqtt.client as mqtt
 client = mqtt.client()
 timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(sound, GPIO.IN)
+#GPIO.setmode(GPIO.BCM)
+#GPIO.setup(sound, GPIO.IN)
 
 camera = PiCamera()
 
