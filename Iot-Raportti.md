@@ -12,14 +12,21 @@ Osan ryhmästä palvelinohjelmointikurssilla tekemää harjoitustyötä päätet
 
 
 
-## Toinen luku(esim.toteutus tai selitys laitteista)
+## Toteutus
 
-Järjestelmää alettiin suunnitella ja toteuttaa Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan. Koodi tiedostossa kuva2.py. Linkki tähän?
+### Laitteisto
+
+Järjestelmää alettiin toteuttaa koululta saadun Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan. Koodi tiedostossa kuva2.py. Linkki tähän?
 
 Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalle koodi Raspissa.
+
+### MQTT
+
+### Laravel
 
 Raspiin asennettiin Ubuntu käyttöjärjestelmä. (Asennettiinko me? Anssi?)
 
 ## Kolmas luku
 
+## Pohdinta
 
