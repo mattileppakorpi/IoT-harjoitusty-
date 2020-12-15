@@ -2,17 +2,15 @@
 
 ## Johdanto
 
-- Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti 
+- Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti osana kurssia IoT-järjestelmän toteutus TTIW0200. Projektin aiheeksi valikoitui äänestä aktivoituva kamera 
 
-- Projektin aiheeksi valikoitui äänestä aktivoituva kamera 
+Kameran tarkoitus on ottaa kuva kun voimakas ääni syntyy mikrofonin lähellä. Kuva lähetetään palvelimelle ja sitä voi verkkosivun kautta katsoa. Tiedot kuvista siirtyvät myös tietokantaan jota sivusto käyttää kuvien näyttämisessä. 
 
-- Kameran tarkoitus on ottaa kuva kun voimakas ääni syntyy mikrofonin lähellä. Kuva lähetetään palvelimelle ja sitä voi verkkosivun kautta katsoa. Tiedot kuvista siirtyvät myös tietokantaan jota sivusto käyttää kuvien näyttämisessä. 
+Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja(kamera ja mikrofoni) 
 
-- Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja(kamera ja mikrofoni) 
+Tavoitteena oli luoda ympäristö missä “kameraa” voidaan käyttää ns. turvakamerana.  
 
-- Tavoitteena oli luoda ympäristö missä “kameraa” voidaan käyttää ns. turvakamerana.  
-
-- Ryhmän aiheeseen liittyvä valmis osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
+Ryhmän aiheeseen liittyvä valmis osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
 
 
 
