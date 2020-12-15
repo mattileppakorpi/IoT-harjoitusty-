@@ -26,7 +26,7 @@ Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimiva
 
 Raspiin asennettiin Ubuntu käyttöjärjestelmä. (Asennettiinko me? Anssi?)
 
-## Kolmas luku
+## Ongelmia
 
 ## Pohdinta
 
