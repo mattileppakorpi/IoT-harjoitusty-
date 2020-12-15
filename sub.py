@@ -1,32 +1,47 @@
 import paho.mqtt.client as mqtt
-MQTT_SERVER = "localhost"
+import base64
+import mysql.connector
+MQTT_SERVER = "192.168.57.102"
 MQTT_PATH = "Image"
+import datetime
+import config
 
-# The callback for when the client receives a CONNACK response from the server.
+db_connection=mysql.connector.connect(
+    host=config.host,
+    user=config.user,
+    passwd=config.passwd,
+    database=config.database
+)
+def to_database(name):
+    db_cursor= db_connection.cursor()
+    url="http://192.168.9.40/~administrator/pikuvat/"+name+".jpg"
+    image_sql_query="Insert INTO images(name,url,time) VALUES (%s,%s,%s)"
+    db_cursor.execute(image_sql_query, (name, url, name))
+    db_connection.commit()
+    print("Image inserted")
+
+
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
 
-    # Subscribing in on_connect() means that if we lose the connection and
-    # reconnect then subscriptions will be renewed.
     client.subscribe(MQTT_PATH)
-    # The callback for when a PUBLISH message is received from the server.
 
 
 def on_message(client, userdata, msg):
-    # more callbacks, etc
-    # Create a file with write byte permission
-    f = open('output.jpg', "wb")
-    f.write(msg.payload)
+    timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+    msg_payload = msg.payload.decode()
+    msg_decoded=base64.b64decode(msg_payload)
+    with open('public_html/pikuvat/'+timestamp+'.jpg', 'wb') as f:
+        f.write(msg_decoded)
+        to_database(timestamp)
+    
     print("Image Received")
-    f.close()
+    
 
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 client.connect(MQTT_SERVER, 1883, 60)
 
-# Blocking call that processes network traffic, dispatches callbacks and
-# handles reconnecting.
-# Other loop*() functions are available that give a threaded interface and a
-# manual interface.
+
 client.loop_forever()
