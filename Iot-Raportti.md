@@ -1,0 +1,1 @@
+# Äänestä aktivoituva valvontakamera
