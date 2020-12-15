@@ -1,3 +1,23 @@
 # Äänestä aktivoituva valvontakamera
 
-Johdanto
+**Johdanto**
+
+-Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti 
+
+-Projektin aiheeksi valikoitui äänestä aktivoituva kamera 
+
+-Kameran tarkoitus on ottaa kuva kun voimakas ääni syntyy mikrofonin lähellä. Kuva lähetetään palvelimelle ja sitä voi verkkosivun kautta katsoa. Tiedot kuvista siirtyvät myös tietokantaan jota sivusto käyttää kuvien näyttämisessä. 
+
+-Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja(kamera ja mikrofoni) 
+
+-Tavoitteena oli luoda ympäristö missä “kameraa” voidaan käyttää ns. turvakamerana.  
+
+-Ryhmän aiheeseen liittyvä valmis osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
+
+
+
+**Toinenluku(esim.toteutus tai selitys laitteista)**
+
+-Järjestelmää alettiin suunnitella ja toteuttaa Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan.  
+
+-Rapsiin asennettiin Ubuntu käyttöjärjestelmä. 
