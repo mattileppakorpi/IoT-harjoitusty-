@@ -1,6 +1,6 @@
 # Äänestä aktivoituva valvontakamera
 
-##Johdanto
+## Johdanto
 
 -Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti 
 
@@ -16,7 +16,7 @@
 
 
 
-##Toinenluku(esim.toteutus tai selitys laitteista)
+## Toinenluku(esim.toteutus tai selitys laitteista)
 
 -Järjestelmää alettiin suunnitella ja toteuttaa Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan.  
 
