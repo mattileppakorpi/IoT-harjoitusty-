@@ -24,7 +24,10 @@ Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimiva
 
 ### Laravel
 
-Raspiin asennettiin Ubuntu käyttöjärjestelmä. (Asennettiinko me? Anssi?)
+Raspiin asennettiin Ubuntu käyttöjärjestelmä. (Asennettiinko me? Anssi?)(ei asennettu, raspin mukana tuli oma käyttis, joka oli luultavasti Rasbian, en muista varmasti)
+
+Palvelimelle asensimme Laravel:n joka on ilmainen, avoimen lähdekoodin PHP web-ohjelmistokehys. Laravel on suunniteltu helpottamaan verkkosovellusten kehittämistä sisäänrakennettujen ominaisuuksien avulla. Laravel:n ominaisuuksia ovat mm. modulaarinen pakkausjärjestelmä joka tarkoittaa sitä että voit helposti lisätä toimintoja Laravel-sovellukseesi kirjoittamatta niitä tyhjästä sekä myös valmiiksi rakennettu todennusominaisuus.
+
 
 ## Ongelmia
 
