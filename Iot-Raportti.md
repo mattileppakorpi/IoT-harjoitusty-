@@ -20,7 +20,7 @@ Järjestelmää alettiin toteuttamaan koululta saadun Raspberry Pi:n avulla toim
 
 Kuva raspin kytkennöistä tähän?
 
-Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalle koodi Raspissa. 
+Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. 
 
 
 ### MQTT
@@ -31,7 +31,7 @@ Ennen lähettämistä Raspi muuttaa kuvan base64-muotoon.
 
 ### Palvelin 
 
-Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin Python-koodi joka ottaa Raspbetty Pi:n muuntaman ja lähettämän kuvan vastaan ja purkaa Base64-muunnoksen takaisin kuvaksi ja tallentaa sen datetime-timestampin nimisena public-kansioon. Kuvan vastaanoton yhteydessä kuvan tiedot lähetetään myös MySQL-palvelimelle missä olevan tietokannan avulla kuvat näytetään käyttäjälle. 
+Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin Python-koodi joka ottaa Raspbetty Pi:n muuntaman ja lähettämän kuvan vastaan ja purkaa Base64-muunnoksen takaisin kuvaksi ja tallentaa sen datetime-timestampin nimisenä public-kansioon. Kuvan vastaanoton yhteydessä kuvan tiedot lähetetään myös MySQL-palvelimelle missä olevan tietokannan avulla kuvat näytetään käyttäjälle. 
 
 ### Laravel
 
@@ -51,9 +51,9 @@ Ominaisuuksia:
 
 ## Ongelmia
 
-Ongelmia tuotti Laravel-kehyksen asentaminen palvelimelle, koska palvelimelle oli asennettu Ubuntun versio 7.2 mutta jostain syystä MySql oli taasen versio 7.4 eivätkä näme olleet yhteensopivia. Tämä eiheutti sen että migraatioita palvelimen ja MySql:n välillä ei voitu suorittaa.
+Ongelmia tuotti Laravel-kehyksen asentaminen palvelimelle, koska palvelimelle oli asennettu Ubuntun versio 7.2 mutta jostain syystä MySql oli taasen versio 7.4 eivätkä näme olleet yhteensopivia. Tämä aiheutti sen että migraatioita palvelimen ja MySql:n välillä ei voitu suorittaa.
 
-Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimimaan.
+Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimimaan. Tämä johtui lähinnä siitä että MQTT oli melko uusi tuttavuus kaikille tekijöille ja yhteyden käytännön toteutus sen vuoksi vierasta.
 
 ## Pohdinta
 
