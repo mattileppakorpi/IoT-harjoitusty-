@@ -31,5 +31,7 @@ Palvelimelle asensimme Laravel:n joka on ilmainen, avoimen lähdekoodin PHP web-
 
 ## Ongelmia
 
+Ongelmia tuotti Laravel-kehyksen asentaminen palvelimelle, koska palvelimelle oli asennettu Ubuntun versio 7.2 mutta jostain syystä MySql oli taasen versio 7.4 eivätkä näme olleet yhteensopivia. Tämä eiheutti sen että migraatioita palvelimen ja MySql:n välillä ei voitu suorittaa.
+
 ## Pohdinta
 
