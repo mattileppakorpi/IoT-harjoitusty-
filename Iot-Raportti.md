@@ -35,7 +35,11 @@ Palvelimelle asensimme Laravel:n joka on ilmainen, avoimen lähdekoodin PHP web-
 Mietimme mitä ominaisuuksia haluaisimme kyseiseen kehykseen, jotta se vastaisi harjoitustyön vaatimuksia myös Web-palvelinohjelmointi opintojakson puolella.
 
 Ominaisuuksia:
-*Rekistöröinti sekä kirjautuminen
+* Rekistöröinti sekä kirjautuminen
+* Kuvien katsominen valitsemalla joko listasta tai selaamalla
+* Kuvakohtainen kommentointi
+* Admin-oikeuksilla kommenttien poistaminen
+* Kuvat nimetty datetime:lla kuvan oton yhteydessä
 
 ## Ongelmia
 
