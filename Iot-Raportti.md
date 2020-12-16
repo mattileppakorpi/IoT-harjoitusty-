@@ -20,6 +20,10 @@ Järjestelmää alettiin toteuttaa koululta saadun Raspberry Pi:n avulla toimiva
 
 Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalle koodi Raspissa.
 
+### Palvelin 
+
+Palvelimena toimi koulun verkkoon perustettu virtuaalikone.
+
 ### MQTT
 
 ### Laravel
