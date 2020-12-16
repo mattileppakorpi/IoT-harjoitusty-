@@ -32,6 +32,10 @@ Raspiin asennettiin Ubuntu käyttöjärjestelmä. (Asennettiinko me? Anssi?)(ei 
 
 Palvelimelle asensimme Laravel:n joka on ilmainen, avoimen lähdekoodin PHP web-ohjelmistokehys. Laravel on suunniteltu helpottamaan verkkosovellusten kehittämistä sisäänrakennettujen ominaisuuksien avulla. Laravel:n ominaisuuksia ovat mm. modulaarinen pakkausjärjestelmä joka tarkoittaa sitä että voit helposti lisätä toimintoja Laravel-sovellukseesi kirjoittamatta niitä tyhjästä sekä myös valmiiksi rakennettu todennusominaisuus.
 
+Mietimme mitä ominaisuuksia haluaisimme kyseiseen kehykseen, jotta se vastaisi harjoitustyön vaatimuksia myös Web-palvelinohjelmointi opintojakson puolella.
+
+Ominaisuuksia:
+*Rekistöröinti sekä kirjautuminen
 
 ## Ongelmia
 
