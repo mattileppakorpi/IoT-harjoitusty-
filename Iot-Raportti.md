@@ -19,7 +19,7 @@ Osan ryhmästä palvelinohjelmointikurssilla tekemää harjoitustyötä päätet
 Järjestelmää alettiin toteuttamaan koululta saadun Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan. Koodi tiedostossa kuva2.py. Linkki tähän?
 
 Kuva raspin kytkennöistä tähän?
-![Raspberry Pi kytkennät](/raspi.jpg height="250" width="250" "Kytkennät")
+![Raspberry Pi kytkennät](/raspi.jpg height="250" width="250")
 
 Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. 
 
