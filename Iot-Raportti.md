@@ -58,8 +58,9 @@ Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimi
 ## Pohdinta
 
 (Esimerkkejä)
-*Projekti onnistui mielestämme hyvin...
-*Opimme kurssin aikana paljon käytännön asioita liittyen palvelimen toimintaan ja Raspberry Pi:n toimintaan liittyen...
-*Python koodikielen kirjoittaminen alkoi kurssin loppua kohden onnistumaan hyvin. 
-*Tuliko opittua jotain muuta??
-*esim.Olisiko projektissa pitänyt tehdä jotain eritavalla..??
+
+- Projekti onnistui mielestämme hyvin...
+- Opimme kurssin aikana paljon käytännön asioita liittyen palvelimen toimintaan ja Raspberry Pi:n toimintaan liittyen...
+- Python koodikielen kirjoittaminen alkoi kurssin loppua kohden onnistumaan hyvin. 
+- Tuliko opittua jotain muuta??
+- esim.Olisiko projektissa pitänyt tehdä jotain eritavalla..??
