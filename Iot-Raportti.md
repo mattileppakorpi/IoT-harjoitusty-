@@ -20,7 +20,7 @@ Järjestelmää alettiin toteuttamaan koululta saadun Raspberry Pi:n avulla toim
 
 <img src="/raspi.jpg" width="400" height="400">
 
-Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. 
+Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. [sendimage.py](/sendimage.py) 
 
 
 ### MQTT
@@ -31,7 +31,7 @@ Ennen lähettämistä Raspi muuttaa kuvan base64-muotoon.
 
 ### Palvelin 
 
-Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin Python-koodi joka ottaa Raspbetty Pi:n muuntaman ja lähettämän kuvan vastaan ja purkaa Base64-muunnoksen takaisin kuvaksi ja tallentaa sen datetime-timestampin nimisenä public-kansioon. Kuvan vastaanoton yhteydessä kuvan tiedot lähetetään myös MySQL-palvelimelle missä olevan tietokannan avulla kuvat näytetään käyttäjälle. 
+Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin Python-koodi joka ottaa Raspbetty Pi:n muuntaman ja lähettämän kuvan vastaan ja purkaa Base64-muunnoksen takaisin kuvaksi ja tallentaa sen datetime-timestampin nimisenä public-kansioon. Kuvan vastaanoton yhteydessä kuvan tiedot lähetetään myös MySQL-palvelimelle missä olevan tietokannan avulla kuvat näytetään käyttäjälle. Palvelimella oleva koodi [sub.py](/sub.py)
 
 ### Laravel
 
