@@ -35,7 +35,7 @@ Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin
 
 Tietokanta sijaitsi student-palvelimella.
 
-<img src="/mysql1.PNG" width="200" height="200" title="Tietokanta"> <img src="/mysql2.PNG" width="200" height="200" title="Images table">
+<img src="/mysql1.PNG" width="200" height="200" title="Tietokanta"> <img src="/mysql2.PNG" width="400" height="200" title="Images table">
 
 ### Laravel
 
