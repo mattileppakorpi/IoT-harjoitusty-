@@ -18,7 +18,7 @@ Osan ryhmästä web-palvelinohjelmointikurssilla tekemää harjoitustyötä pä�
 
 Järjestelmää alettiin toteuttamaan koululta saadun Raspberry Pi:n avulla toimivaksi. Raspiin yhdistettiin siihen sopiva kamera ja mikrofoni, ja sinne tehtiin Python-koodi, joka mikrofonilta syötteen saatuaan käskee kameraa ottamaan kuvan. Koodi tiedostossa [kuva2.py](/kuva2.py).
 
-<img src="/raspi.jpg" width="400" height="400" title="kytkennät">  <img src="/plugit.png" width="700" height="400">
+<img src="/raspi.jpg" width="400" height="400" title="Raspberry Pi">  <img src="/plugit.png" width="700" height="400" title="Kytkennät">
 
 Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. [sendimage.py](/sendimage.py) 
 
@@ -48,7 +48,7 @@ Ominaisuuksia:
 * Admin-oikeuksilla kommenttien poistaminen ja kuvien tietojen muokkaaminen
 * Kuvat nimetty datetime:lla kuvan oton yhteydessä
 
-<img src="/laravel1.PNG" width="500" height="400"> <img src="/laravel2.PNG" width="500" height="400">
+<img src="/laravel1.PNG" width="500" height="400" title="Kuvat lista muodossa"> <img src="/laravel2.PNG" width="500" height="400" title="Kommentit">
 
 ## Ongelmia
 
