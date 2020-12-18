@@ -20,7 +20,7 @@ Järjestelmää alettiin toteuttamaan koululta saadun Raspberry Pi:n avulla toim
 
 <img src="/raspi.jpg" width="400" height="400" title="Raspberry Pi">  <img src="/plugit.png" width="700" height="400" title="Kytkennät">
 
-Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetty koodi otti kuvan ilman mikrofonia ajamalla koodi Raspissa. [sendimage.py](/sendimage.py) 
+Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimivaksi, mutta koronatilanteesta johtuen projektia vietiin eteenpäin ilman mikrofonia jotta järjestelmää pystyi testaamaan etänä sen jälkeen kun Raspi oli palautettu koululle. Päivitetyssä versiossa kuva otettiin ilman mikrofonia ajamalla koodi  [sendimage.py](/sendimage.py) Raspissa.
 
 
 ### MQTT
