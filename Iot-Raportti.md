@@ -6,7 +6,7 @@ Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti osana ku
 
 Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja (kamera ja mikrofoni). Tavoitteena oli luoda ympäristö missä “kameraa” voidaan käyttää ns. turvakamerana. Ryhmän aiheeseen liittyvä osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
 
-Kuvien lähettämiseen palvelimelle päätettiin käyttää MQTT-protokollaa, ja yhteyden tarjoavana brokerina Mosquitto.
+Kuvien lähettämiseen palvelimelle päätettiin käyttää MQTT-protokollaa, ja yhteyden tarjoavana brokerina Mosquitto. Tähän päädyttiin koska MQTT on yleisesti käytetty ja kätevä viestinvälitystapa tämän kaltaisissa projekteissa.
 
 Osan ryhmästä web-palvelinohjelmointikurssilla tekemää harjoitustyötä päätettin käyttää tämän harjoitustyön yhteydessä kuvien esittämiseen tarkoitettuna järjestelmänä. Sovellus on Laravelilla toteutettu PHP-pohjainen MySQL-tietokantaan yhteydessä oleva ja kirjautumisen vaativa järjestelmä joka näyttää kuvat sitä mukaa kun Raspi niitä lähettää. Tuon järjestelmän tarkempia yksityiskohtia ei tässä raportissa käsitellä. 
 
