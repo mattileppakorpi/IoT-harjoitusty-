@@ -58,7 +58,9 @@ Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimi
 
 ## Pohdinta
 
-Projekti onnistui mielestämme melko hyvin. IoT-järjestelmän perusosat ovat yksinkertaisesti mutta hyvin esillä työssä. Sensori eli mikrofoni ottaa ympäristöstä syötteen, actuator tekee toiminnan, eli Pi ottaa kuvan, ja data käsitellään muuttamalla se base64 muotoon ennen lähettämistä eteenpäin, tässä tapauksessa säilytettäväksi ja esitettäväksi palvelimelle.  
+Projekti oli kokonaisuutena erittäin opettava ja mielenkiintoinen. Kun miettii lähtökohtia jotka olivat ne että Raspberry Pi oli aivan vieras laite ryhmäläisille ennen kurssia, Python kielenä vieras monelle ja kuinka vaikealta tuntui keksiä aihetta projektiin niin on pakko sanoa että se onnistui mielestämme melko hyvin.
+
+IoT-järjestelmän perusosat ovat yksinkertaisesti mutta hyvin esillä työssä. Sensori eli mikrofoni ottaa ympäristöstä syötteen, actuator tekee toiminnan, eli Pi ottaa kuvan, ja data käsitellään muuttamalla se base64 muotoon ennen lähettämistä eteenpäin, tässä tapauksessa säilytettäväksi ja esitettäväksi palvelimelle.  
 
 
 - Opimme kurssin aikana paljon käytännön asioita liittyen palvelimen toimintaan ja Raspberry Pi:n toimintaan liittyen...
