@@ -40,11 +40,10 @@ Tietokanta sijaitsi student-palvelimella. Images-taulun time-kenttä jäi turhak
 ### Laravel
 
 
-Palvelimelle asensimme Laravel:n joka on ilmainen, avoimen lähdekoodin PHP web-ohjelmistokehys. Laravel on suunniteltu helpottamaan verkkosovellusten kehittämistä sisäänrakennettujen ominaisuuksien avulla. Laravel:n ominaisuuksia ovat mm. modulaarinen pakkausjärjestelmä joka tarkoittaa sitä että voit helposti lisätä toimintoja Laravel-sovellukseesi kirjoittamatta niitä tyhjästä sekä myös valmiiksi rakennettu todennusominaisuus. Myös MySQL-tietokannan käyttö on Laravelin avulla kätevää. 
+Palvelimelle asennettiin Laravel, joka on ilmainen, avoimen lähdekoodin PHP web-ohjelmistokehys. Laravel on suunniteltu helpottamaan verkkosovellusten kehittämistä sisäänrakennettujen ominaisuuksien avulla. Laravel:n ominaisuuksia ovat mm. modulaarinen pakkausjärjestelmä joka tarkoittaa sitä että voit helposti lisätä toimintoja Laravel-sovellukseesi kirjoittamatta niitä tyhjästä sekä myös valmiiksi rakennettu todennusominaisuus. Myös MySQL-tietokannan käyttö on Laravelin avulla kätevää. 
 
-Mietimme mitä ominaisuuksia haluaisimme kyseiseen kehykseen, jotta se vastaisi harjoitustyön vaatimuksia myös Web-palvelinohjelmointi opintojakson puolella.
+Alle on listattuu ominaisuuksia mitä kyseiseen kehykseen haluttiin, jotta se vastaisi harjoitustyön vaatimuksia myös Web-palvelinohjelmointi opintojakson puolella.
 
-Ominaisuuksia:
 * Laravel näyttää kuvat MySQL-tietokannasta linkkien kautta. 
 * Järjestelmään rekisteröityminen sekä kirjautuminen
 * Kuvien katsominen valitsemalla joko listasta tai selaamalla
