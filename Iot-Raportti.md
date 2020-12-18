@@ -31,6 +31,12 @@ Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT eli Mosquitto julkaisu 
 
 Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin Python-koodi joka ottaa Raspberry Pi:n muuntaman ja lähettämän kuvan vastaan ja purkaa Base64-muunnoksen takaisin kuvaksi ja tallentaa sen datetime-timestampin nimisenä public-kansioon. Kuvan vastaanoton yhteydessä kuvan tiedot lähetetään myös MySQL-palvelimelle missä olevan tietokannan avulla kuvat näytetään käyttäjälle. Palvelimella oleva koodi [sub.py](/sub.py)
 
+### MySql
+
+Tietokanta sijaitsi student-palvelimella.
+
+<img src="/mysql1.PNG" width="200" height="200" title="Tietokanta"> <img src="/mysql2.PNG" width="200" height="200" title="Images table">
+
 ### Laravel
 
 
