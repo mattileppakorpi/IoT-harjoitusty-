@@ -48,7 +48,7 @@ Ominaisuuksia:
 * Admin-oikeuksilla kommenttien poistaminen ja kuvien tietojen muokkaaminen
 * Kuvat nimetty datetime:lla kuvan oton yhteydessä
 
-<img src="/laravel.png" width="400" height="400"> <img src="/laravel2.png" width="400" height="400">
+<img src="/laravel.PNG" width="400" height="400"> <img src="/laravel2.PNG" width="400" height="400">
 
 ## Ongelmia
 
