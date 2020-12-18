@@ -25,9 +25,7 @@ Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimiva
 
 ### MQTT
 
-Kuvan lähettämiseen käytettiin MQTT-yheyttä. Tähän vois vähän kertoo miten se toimii???
-
-Ennen lähettämistä Raspi muuttaa kuvan base64-muotoon. 
+Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT eli Mosquitto julkaisu protokollaa. Mosquitto asennettiin Rapsberry Pi:lle ja palvelin puolelle siten, että palvelin on vastaanottaja ja Rapsberry Pi on lähettäjä. Kuvan ottamisen jälkeen kuva muutetaan Base64 encryptaus muotoon, jonka jälkeen se lähetetään palvelimelle. Palvelimella kuva muutetaan takaisin normaaliin kuva formattiin.
 
 ### Palvelin 
 
