@@ -8,7 +8,7 @@ Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia mo
 
 Kuvien lähettämiseen palvelimelle päätettiin käyttää MQTT-protokollaa, ja yhteyden tarjoavana brokerina Mosquitto.
 
-Osan ryhmästä palvelinohjelmointikurssilla tekemää harjoitustyötä päätettin käyttää tämän harjoitustyön yhteydessä kuvien esittämiseen tarkoitettuna järjestelmänä. Sovellus on Laravelilla toteutettu PHP-pohjainen MySQL-tietokantaan yhteydessä oleva ja kirjautumisen vaativa järjestelmä joka näyttää kuvat sitä mukaa kun Raspi niitä lähettää. Tuon järjestelmän tarkempia yksityiskohtia ei tässä raportissa käsitellä. 
+Osan ryhmästä web-palvelinohjelmointikurssilla tekemää harjoitustyötä päätettin käyttää tämän harjoitustyön yhteydessä kuvien esittämiseen tarkoitettuna järjestelmänä. Sovellus on Laravelilla toteutettu PHP-pohjainen MySQL-tietokantaan yhteydessä oleva ja kirjautumisen vaativa järjestelmä joka näyttää kuvat sitä mukaa kun Raspi niitä lähettää. Tuon järjestelmän tarkempia yksityiskohtia ei tässä raportissa käsitellä. 
 
 
 
@@ -57,9 +57,9 @@ Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimi
 
 ## Pohdinta
 
-(Esimerkkejä)
+Projekti onnistui mielestämme melko hyvin. IoT-järjestelmän perusosat ovat yksinkertaisesti mutta hyvin esillä työssä. Sensori eli mikrofoni ottaa ympäristöstä syötteen, actuator tekee toiminnan, eli Pi ottaa kuvan, ja data käsitellään muuttamalla se base64 muotoon ennen lähettämistä eteenpäin, tässä tapauksessa säilytettäväksi ja esitettäväksi palvelimelle.  
 
-- Projekti onnistui mielestämme hyvin...
+
 - Opimme kurssin aikana paljon käytännön asioita liittyen palvelimen toimintaan ja Raspberry Pi:n toimintaan liittyen...
 - Python koodikielen kirjoittaminen alkoi kurssin loppua kohden onnistumaan hyvin. 
 - Tuliko opittua jotain muuta??
