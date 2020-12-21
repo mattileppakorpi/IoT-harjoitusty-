@@ -58,7 +58,7 @@ Kuvassa laravel-sivusto. Kuvista suurin osa on testidataa. Ääkköset eivät jo
 
 Ongelmia tuotti Laravel-kehyksen asentaminen palvelimelle, koska palvelimelle oli asennettu Ubuntun versio 7.2 mutta jostain syystä MySql oli taasen versio 7.4 eivätkä näme olleet yhteensopivia. Tämä aiheutti sen että migraatioita palvelimen ja MySql:n välillä ei voitu suorittaa.
 
-Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimimaan. Tämä johtui lähinnä siitä että MQTT oli melko uusi tuttavuus kaikille tekijöille ja yhteyden käytännön toteutus sen vuoksi vierasta.
+Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimimaan. Tämä johtui lähinnä siitä että MQTT oli melko uusi tuttavuus kaikille tekijöille ja yhteyden käytännön toteutus sen vuoksi vierasta. Myös eri python-kirjastoja jouduttiin asentamaan useita ennen kuin kaikki saatiin toimimaan.
 
 ## Pohdinta
 
