@@ -4,7 +4,7 @@
 
 Harjoitustyön tarkoituksena oli toteuttaa Internet of Things- projekti osana kurssia IoT-järjestelmän toteutus TTIW0200. Projektin aiheeksi valikoitui äänestä aktivoituva kamera jonka tarkoitus on ottaa kuva kun tarpeeksi voimakas ääni syntyy mikrofonin lähellä. Kuva lähetetään palvelimelle ja sitä voi verkkosivun kautta katsoa. Tiedot kuvista siirtyvät myös tietokantaan jota sivusto käyttää kuvien näyttämisessä. Projektin suunnitelma [täällä](/Suunnitelma.md).
 
-Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja (kamera ja mikrofoni). Tavoitteena oli luoda ympäristö missä “kameraa” voidaan käyttää ns. turvakamerana. Ryhmän aiheeseen liittyvä osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
+Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia moduleja (kamera ja mikrofoni). Tavoitteena oli luoda ympäristö missä kameraa voidaan käyttää ns. turvakamerana. Ryhmän aiheeseen liittyvä osaaminen oli melko kapea-alainen ennen projektia mikä toi toteutukseen haastetta. 
 
 Kuvien lähettämiseen palvelimelle päätettiin käyttää MQTT-protokollaa, ja yhteyden tarjoavana brokerina Mosquitto. Tähän päädyttiin koska MQTT on yleisesti käytetty ja kätevä viestinvälitystapa tämän kaltaisissa projekteissa.
 
