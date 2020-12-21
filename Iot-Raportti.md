@@ -25,7 +25,7 @@ Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimiva
 
 ### MQTT
 
-Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT (Message Queuing Telemetry Transport) julkaisu protokollaa. MQTT on kevyt lähetys ja vastaanotto protokolla, jota käytetään lähettämään viestejä laitteiden välillä. MQTT-yhteyden tarjoava Mosquitto asennettiin Rapsberry Pi:lle ja palvelin puolelle siten, että palvelin on vastaanottaja ja Rapsberry Pi on lähettäjä. Kuvan ottamisen jälkeen kuva muutetaan Base64 encryptaus muotoon, jonka jälkeen se lähetetään brokerille, josta palvelin sen saa. Palvelimella kuva muutetaan takaisin normaaliin kuva formattiin. [sendimage.py](/sendimage.py)
+Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT (Message Queuing Telemetry Transport) julkaisu protokollaa. MQTT on kevyt lähetys- ja vastaanottoprotokolla, jota käytetään lähettämään viestejä laitteiden välillä. MQTT-yhteyden tarjoava Mosquitto asennettiin Rapsberry Pi:lle ja palvelin puolelle siten, että palvelin on vastaanottaja ja Rapsberry Pi on lähettäjä. Kuvan ottamisen jälkeen kuva muutetaan Base64 encryptaus muotoon, jonka jälkeen se lähetetään brokerille, josta palvelin sen saa. Palvelimella kuva muutetaan takaisin normaaliin kuva formattiin. [sendimage.py](/sendimage.py)
 
 ### Palvelin 
 
