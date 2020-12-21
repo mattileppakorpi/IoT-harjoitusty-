@@ -33,7 +33,7 @@ Palvelimena toimi koulun verkkoon perustettu virtuaalikone. Palvelimelle tehtiin
 
 ### MySql
 
-Tietokanta sijaitsi JAMK:n student-palvelimella. Images-taulun time-kenttä jäi turhaksi koska aikaleima tuli kuvan nimeksi mutta se siellä vielä on.
+Tietokanta sijaitsi JAMK:n student-palvelimella. Images-taulun time-kenttä jäi turhaksi koska aikaleima tuli kuvan nimeksi mutta se jätettiin.
 
 <img src="/mysql1.PNG" width="200" height="200" title="Tietokanta"> <img src="/mysql2.PNG" width="400" height="200" title="Images table">
 
