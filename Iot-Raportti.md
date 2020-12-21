@@ -71,8 +71,3 @@ Python koodauskielenä ei ollut kaikkein tutuin entuudestaan mutta siihen pääd
 
 Mahdollisesti työ olisi valmistunut hieman nopeammin esim. tutumpaa C#:ia käyttäen, mutta samat haastavat kohdat olisi ollut selvitettävänä kuitenkin ja esimerkkitoteutuksia olisi ehkä ollut vaikeampi löytää. 
 MQTT-yhteys olisi ollut fiksumpi tehdä niin päin että palvelin toimii yhteyden server-osoitteena Raspin sijaan. 
-
-
-
-- Tuliko opittua jotain muuta??
--Mitä olisi voinut tehdä toisin?
