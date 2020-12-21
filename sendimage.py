@@ -12,6 +12,7 @@ def convertImageToBase64():
      encoded = base64.b64encode(image_file.read())
  return encoded
 
+//Otetaan kuva
 camera = PiCamera()
 camera.start_preview()
 sleep(3)//kameralle aikaa käynnistyä
@@ -19,7 +20,7 @@ camera.capture('/home/pi/Desktop/image.jpg', resize=(500, 281))
 camera.close()
 image64= convertImageToBase64()
 
-
+//Lähetetään kuva
 MQTT_SERVER = "192.168.57.102"
 MQTT_PATH = "Image"
 
