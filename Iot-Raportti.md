@@ -53,7 +53,7 @@ Alle on listattu ominaisuuksia mitä kyseiseen kehykseen haluttiin, jotta se vas
 
 <img src="/laravel1.PNG" width="500" height="400" title="Kuvat lista muodossa"> <img src="/laravel2.PNG" width="500" height="400" title="Kommentit">
 
-Kuvassa laravel-sivusto. Kuvista suurin osa on testidataa.
+Kuvassa laravel-sivusto. Kuvista suurin osa on testidataa. Ääkköset eivät jostain syystä toimi.
 ## Ongelmia
 
 Ongelmia tuotti Laravel-kehyksen asentaminen palvelimelle, koska palvelimelle oli asennettu Ubuntun versio 7.2 mutta jostain syystä MySql oli taasen versio 7.4 eivätkä näme olleet yhteensopivia. Tämä aiheutti sen että migraatioita palvelimen ja MySql:n välillä ei voitu suorittaa.
