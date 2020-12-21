@@ -65,8 +65,11 @@ Myös MQTT-yhteyden kanssa oli melko paljon ongelmia ennen kuin se saatiin toimi
 Projekti oli kokonaisuutena erittäin opettava ja mielenkiintoinen. Kun miettii lähtökohtia jotka olivat ne, että Raspberry Pi oli aivan vieras laite ryhmäläisille ennen kurssia, python kielenä vieras monelle, IoT-laitteen ja palvelimen yhteistyö tuntematonta ja kuinka vaikealta tuntui keksiä aihetta projektiin niin projekti onnistui mielestämme erittäin hyvin.
 
 IoT-järjestelmän perusosat ovat yksinkertaisesti mutta hyvin esillä työssä. Sensori eli mikrofoni ottaa ympäristöstä syötteen, actuator tekee toiminnan, eli Pi ottaa kuvan, ja data käsitellään muuttamalla se base64 muotoon ennen lähettämistä eteenpäin, tässä tapauksessa säilytettäväksi ja esitettäväksi palvelimelle. 
+
 Harjoitustyön aikana tuli opittua paljon uusia asioita, ja ennen lähinnä teoriapohjalla ollut IoT-tietämys lisääntyi. Esim Raspberry Pi:n käyttö oli kaikille ryhmäläisille uusia asia, samaten siihen liittyvien kameran ja mikrofonin. Myös MQTT oli entuudestan tuttu vain Johdatus teolliseen intrnetiin-kurssin yhdestä harjoitustyöstä jossa sitä käytettiin Noderedin avulla, mutta nyt aiheeseen tutustuttiin paremmin. 
-Python koodauskielenä ei ollut kaikkein tutuin entuudestaan mutta siihen päädyttiin sen vuoksi että se on niin laajalti käytetty IoT-projekteissa ja esimerkkikoodeja olisi varmasti helpoimmin löydettävissä. Mahdollisesti työ olisi valmistunut hieman nopeammin esim. C#:ia käyttäen, mutta samat haastavat kohdat olisi ollut selvitettävänä kuitenkin ja esimerkkitoteutuksia olisi ehkä ollut vaikeampi löytää. 
+Python koodauskielenä ei ollut kaikkein tutuin entuudestaan mutta siihen päädyttiin sen vuoksi että se on niin laajalti käytetty IoT-projekteissa ja esimerkkikoodeja olisi varmasti helpoimmin löydettävissä.
+
+Mahdollisesti työ olisi valmistunut hieman nopeammin esim. tutumpaa C#:ia käyttäen, mutta samat haastavat kohdat olisi ollut selvitettävänä kuitenkin ja esimerkkitoteutuksia olisi ehkä ollut vaikeampi löytää. 
 MQTT-yhteys olisi ollut fiksumpi tehdä niin päin että palvelin toimii yhteyden server-osoitteena Raspin sijaan. 
 
 
