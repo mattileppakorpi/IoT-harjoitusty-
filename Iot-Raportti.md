@@ -25,7 +25,7 @@ Mikrofonin ja kameran yhteistoiminta testattiin kotioloissa ja todettiin toimiva
 
 ### MQTT
 
-Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT julkaisu protokollaa. MQTT on kevyt lähetys ja vastaanotto protokolla, jota käytetään lähettämään viestejä laitteiden välillä. MQTT-yhteyden tarjoava Mosquitto asennettiin Rapsberry Pi:lle ja palvelin puolelle siten, että palvelin on vastaanottaja ja Rapsberry Pi on lähettäjä. Kuvan ottamisen jälkeen kuva muutetaan Base64 encryptaus muotoon, jonka jälkeen se lähetetään palvelimelle. Palvelimella kuva muutetaan takaisin normaaliin kuva formattiin. [sendimage.py](/sendimage.py)
+Kuvan lähettämiseen Rapsberry Pi:ltä käytettiin MQTT (Message Queuing Telemetry Transport) julkaisu protokollaa. MQTT on kevyt lähetys ja vastaanotto protokolla, jota käytetään lähettämään viestejä laitteiden välillä. MQTT-yhteyden tarjoava Mosquitto asennettiin Rapsberry Pi:lle ja palvelin puolelle siten, että palvelin on vastaanottaja ja Rapsberry Pi on lähettäjä. Kuvan ottamisen jälkeen kuva muutetaan Base64 encryptaus muotoon, jonka jälkeen se lähetetään brokerille, josta palvelin sen saa. Palvelimella kuva muutetaan takaisin normaaliin kuva formattiin. [sendimage.py](/sendimage.py)
 
 ### Palvelin 
 
@@ -67,6 +67,7 @@ Projekti oli kokonaisuutena erittäin opettava ja mielenkiintoinen. Kun miettii 
 IoT-järjestelmän perusosat ovat yksinkertaisesti mutta hyvin esillä työssä. Sensori eli mikrofoni ottaa ympäristöstä syötteen, actuator tekee toiminnan, eli Pi ottaa kuvan, ja data käsitellään muuttamalla se base64 muotoon ennen lähettämistä eteenpäin, tässä tapauksessa säilytettäväksi ja esitettäväksi palvelimelle. 
 Harjoitustyön aikana tuli opittua paljon uusia asioita, ja ennen lähinnä teoriapohjalla ollut IoT-tietämys lisääntyi. Esim Raspberry Pi:n käyttö oli kaikille ryhmäläisille uusia asia, samaten siihen liittyvien kameran ja mikrofonin. Myös MQTT oli entuudestan tuttu vain Johdatus teolliseen intrnetiin-kurssin yhdestä harjoitustyöstä jossa sitä käytettiin Noderedin avulla, mutta nyt aiheeseen tutustuttiin paremmin. 
 Python koodauskielenä ei ollut kaikkein tutuin entuudestaan mutta siihen päädyttiin sen vuoksi että se on niin laajalti käytetty IoT-projekteissa ja esimerkkikoodeja olisi varmasti helpoimmin löydettävissä. Mahdollisesti työ olisi valmistunut hieman nopeammin esim. C#:ia käyttäen, mutta samat haastavat kohdat olisi ollut selvitettävänä kuitenkin ja esimerkkitoteutuksia olisi ehkä ollut vaikeampi löytää. 
+MQTT-yhteys olisi ollut fiksumpi tehdä niin päin että palvelin toimii 
 
 
 
