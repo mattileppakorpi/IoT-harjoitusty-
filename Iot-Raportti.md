@@ -8,7 +8,7 @@ Järjestelmä toteutettiin Raspberry Pi:llä hyödyntäen laitteeseen sopivia mo
 
 Kuvien lähettämiseen palvelimelle päätettiin käyttää MQTT-protokollaa, ja yhteyden tarjoavana brokerina Mosquitto. Tähän päädyttiin koska MQTT on yleisesti käytetty ja kätevä viestinvälitystapa tämän kaltaisissa projekteissa ja toisaalta projekti oli hyvä tilaisuus tutustua MQTT:n paremmin.
 
-Osan ryhmästä web-palvelinohjelmointikurssilla tekemää harjoitustyötä päätettin käyttää tämän harjoitustyön yhteydessä kuvien esittämiseen tarkoitettuna järjestelmänä. Sovellus on Laravelilla toteutettu PHP-pohjainen MySQL-tietokantaan yhteydessä oleva ja kirjautumisen vaativa järjestelmä joka näyttää kuvat sitä mukaa kun Raspi niitä lähettää. Tuon järjestelmän tarkempia yksityiskohtia ei tässä raportissa käsitellä. 
+Osan ryhmästä web-palvelinohjelmointikurssilla tekemää harjoitustyötä päätettin käyttää tämän harjoitustyön yhteydessä kuvien esittämiseen tarkoitettuna järjestelmänä. Sovellus on Laravelilla toteutettu PHP-pohjainen MySQL-tietokantaan yhteydessä oleva ja kirjautumisen vaativa järjestelmä joka näyttää kuvat sitä mukaa kun Raspi niitä lähettää. Tuon järjestelmän tarkempia yksityiskohtia ei tässä raportissa käsitellä mutta siihen on linkki alempana. 
 
 
 
