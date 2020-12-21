@@ -6,12 +6,15 @@ MQTT_PATH = "Image"
 import datetime
 import config
 
+//Tietokantayhteyden määrittely, tiedot toisessa tiedostossa config.py
 db_connection=mysql.connector.connect(
     host=config.host,
     user=config.user,
     passwd=config.passwd,
     database=config.database
 )
+
+//Funktio kuvan tietojen lisäämiseen tietokantaan
 def to_database(name):
     db_cursor= db_connection.cursor()
     url="http://192.168.9.40/~administrator/pikuvat/"+name+".jpg"
