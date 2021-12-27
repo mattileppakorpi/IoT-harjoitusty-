@@ -51,7 +51,7 @@ Alle on listattu ominaisuuksia mitä kyseiseen kehykseen haluttiin, jotta se vas
 * Admin-oikeuksilla kommenttien poistaminen ja kuvien tietojen muokkaaminen
 * Kuvat nimetty datetime:lla kuvan oton yhteydessä
 
-<img src="/laravel1.PNG" width="500" height="400" title="Kuvat lista muodossa"> <img src="/laravel2.PNG" width="500" height="400" title="Kommentit">
+<img src="/laravel1.PNG" width="500" title="Kuvat lista muodossa"> <img src="/laravel2.PNG" width="500" title="Kommentit">
 
 Kuvassa laravel-sivusto. Kuvista suurin osa on testidataa, mutta id:t 13 ja 16 toimivasta järjestelmästä Raspilta. Ääkköset eivät jostain syystä toimi.
 ## Ongelmia
